@@ -2,15 +2,15 @@ import chai from "chai";
 import { ethers } from "hardhat";
 import { solidity } from "ethereum-waffle";
 import type { Contract } from "ethers";
-import type { GatedSingleEditionMintable } from "../../typechain/GatedSingleEditionMintable";
+import type { GatedSingleEditionMintable } from "../typechain/GatedSingleEditionMintable";
 import type {
   GatedSingleEditionMintableCreator,
   CreatedGatedEditionEvent,
-} from "../../typechain/GatedSingleEditionMintableCreator";
-import type { SingleEditionMintable } from "../../typechain/SingleEditionMintable";
-import type { SingleEditionMintableCreator } from "../../typechain/SingleEditionMintableCreator";
+} from "../typechain/GatedSingleEditionMintableCreator";
+import type { SingleEditionMintable } from "../typechain/SingleEditionMintable";
+import type { SingleEditionMintableCreator } from "../typechain/SingleEditionMintableCreator";
 import type { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
-import type { ReadWriteTier } from "../../typechain/ReadWriteTier";
+import type { ReadWriteTier } from "../typechain/ReadWriteTier";
 
 chai.use(solidity);
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

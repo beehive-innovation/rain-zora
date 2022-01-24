@@ -5,12 +5,12 @@ import type { Contract } from "ethers";
 import type {
   CreatedGatedEditionEvent,
   GatedSingleEditionMintableCreator,
-} from "../../typechain/GatedSingleEditionMintableCreator";
+} from "../typechain/GatedSingleEditionMintableCreator";
 import type { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
-import type { TypedEvent } from "../../typechain/common";
-import type { SingleEditionMintableCreator } from "../../typechain/SingleEditionMintableCreator";
-import type { SingleEditionMintable } from "../../typechain/SingleEditionMintable";
-import type { ReadWriteTier } from "../../typechain/ReadWriteTier";
+import type { TypedEvent } from "../typechain/common";
+import type { SingleEditionMintableCreator } from "../typechain/SingleEditionMintableCreator";
+import type { SingleEditionMintable } from "../typechain/SingleEditionMintable";
+import type { ReadWriteTier } from "../typechain/ReadWriteTier";
 
 chai.use(solidity);
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
